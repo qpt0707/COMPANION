@@ -12,6 +12,7 @@
     out.println("<h3>DB에 연결되었습니다.</h3>");
  }catch(Exception e){
   	out.println("<h3>DB에 연결에 실패하였습니다.</h3>");
+  	out.println(e.getMessage());
   	e.printStackTrace();
   }
 %>
