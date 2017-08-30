@@ -38,6 +38,15 @@ public class SearchController {
         mav.addObject("map",map);
         mav.setViewName("search/list");
         
+        
+        ModelAndView mav = new ModelAndView();
+        Map<String, Object> map=new HashMap<String, Object>();
+        map.put("list",list);
+        map.put("keyField", searchOption);
+        map.put("keyWord", keyword);
+        mav.addObject("map",map);
+        mav.setViewName("search/list");
+        
         return mav;
     }
 }

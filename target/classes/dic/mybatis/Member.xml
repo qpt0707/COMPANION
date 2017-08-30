@@ -29,6 +29,17 @@
         </otherwise>
     </choose>
 	</sql>
+	    <sql id="search">
+    <choose>
+        <when test="searchOption == 'all'">
+            WHERE ko like '%'||#{keyword}||'%'
+            OR eng like '%'||#{keyword}||'%'
+        </when>
+        <otherwise>
+            WHERE ${searchOption} like '%'||#{keyword}||'%'
+        </otherwise>
+    </choose>
+	</sql>
    <!--  <select id="mySelectone" resultType="Board">
        select * from data_dic where BNUMBER=#{idx}
     </select>

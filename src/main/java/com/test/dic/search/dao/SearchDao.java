@@ -7,5 +7,8 @@ import com.test.dic.model.Search;
 
 public interface SearchDao {
 	public List<Search> listAll(String searchOption, String keyword);
+	public List<Search> listAll(String searchOption, String keyword);
+	public List<Search> listAll(String searchOption, String keyword);
+	public List<Search> listAll(String searchOption, String keyword);
 
 }
