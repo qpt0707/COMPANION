@@ -26,7 +26,7 @@ public class SearchController {
 	private SearchService searchService;
 	
 	@RequestMapping(value="/search/{list.do}")
-    public ModelAndView list(@RequestParam(defaultValue="title") String searchOption,
+    public ModelAndView list(@RequestParam(defaultValue="eng") String searchOption,
     		@RequestParam(defaultValue="") String keyword){
         List<Search> list=searchService.listAll(searchOption, keyword);
        
