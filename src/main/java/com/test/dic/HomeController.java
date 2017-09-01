@@ -14,43 +14,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Handles requests for the application home page.
  */
-/**
-<<<<<<< HEAD
- * 
- * @author Great merage test
- *
-=======
- * Handles requests for the application home page.
->>>>>>> branch 'master' of https://github.com/qpt0707/COMPANION
- */
-/**
- * Handles requests for the application home page.
- */
-/**
- * Handles requests for the application home page.
- */
-/**
- * Handles requests for the application home page.
- */
-/**
- * Handles requests for the application home page.
- */
-/**
- * Handles requests for the application home page.
- */
-<<<<<<< HEAD
-/*zzz
- * zzz
- * zzz
- * zzzz
- * zzzz
- * zzzz
- */
-=======
->>>>>>> branch 'master' of https://github.com/qpt0707/COMPANION
-/**
- * Simply selects the home view to render by returning its name.
- */
 @Controller
 public class HomeController {
 	
