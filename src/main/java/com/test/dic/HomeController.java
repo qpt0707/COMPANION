@@ -38,6 +38,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Handles requests for the application home page.
  */
+<<<<<<< HEAD
 /*zzz
  * zzz
  * zzz
@@ -45,6 +46,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * zzzz
  * zzzz
  */
+=======
+>>>>>>> branch 'master' of https://github.com/qpt0707/COMPANION
 /**
  * Simply selects the home view to render by returning its name.
  */
