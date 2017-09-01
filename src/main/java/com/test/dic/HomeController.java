@@ -23,6 +23,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Handles requests for the application home page.
 >>>>>>> branch 'master' of https://github.com/qpt0707/COMPANION
  */
+/**
+ * Handles requests for the application home page.
+ */
+/**
+ * Handles requests for the application home page.
+ */
 @Controller
 public class HomeController {
 	
