@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Handles requests for the application home page.
  */
+/**
+ * 
+ * @author Great merage test
+ *
+ */
 @Controller
 public class HomeController {
 	
