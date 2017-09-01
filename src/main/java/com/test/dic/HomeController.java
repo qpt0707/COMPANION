@@ -38,6 +38,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Handles requests for the application home page.
  */
+/*zzz
+ * zzz
+ * zzz
+ * zzzz
+ * zzzz
+ * zzzz
+ */
+/**
+ * Simply selects the home view to render by returning its name.
+ */
 @Controller
 public class HomeController {
 	
